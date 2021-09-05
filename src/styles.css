@@ -40,6 +40,20 @@
     padding: 1px;
   }
 
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex-grow: 1;
+    margin-right: 100px;
+  }
+
+  input {
+    display: block;
+    margin: 5px;
+  }
+
 /*Clases que trae por defecto Angular al crear el proyecto*/
 :host {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

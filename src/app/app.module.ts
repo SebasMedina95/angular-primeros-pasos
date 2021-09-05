@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 //import { ContadorComponent } from './contadores/contador/contador.component';
 
 import { HeroesModule } from './heroes/heroes.module';
+import { NarutoModule } from './naruto/naruto.module';
 import { ContadorModule } from './contadores/contadores.module';
 
 /*
@@ -24,8 +25,9 @@ import { HeroesModule } from './heroes/heroes.module';
   ],
   imports: [
     BrowserModule,
-    HeroesModule,
-    ContadorModule
+    //HeroesModule,
+    //ContadorModule,
+    NarutoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
